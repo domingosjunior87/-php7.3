@@ -3,6 +3,7 @@
 Imagem Docker para projetos que utilizam o PHP 7.3 e o servidor Apache
 
 ## Extensões PHP instaladas e habilitadas
+    - bcmath
     - Core
     - ctype
     - curl

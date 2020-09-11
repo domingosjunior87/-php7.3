@@ -14,4 +14,6 @@ RUN docker-php-ext-configure gd --with-gd --with-webp-dir --with-jpeg-dir \
 
 RUN docker-php-ext-install gd
 
+RUN docker-php-ext-install bcmath
+
 RUN a2enmod rewrite
