@@ -12,8 +12,6 @@ RUN apt-get install -y libzip-dev
 RUN docker-php-ext-configure gd --with-gd --with-webp-dir --with-jpeg-dir \
 	--with-png-dir --with-zlib-dir --with-xpm-dir --with-freetype-dir
 
-RUN docker-php-ext-install gd
-
-RUN docker-php-ext-install bcmath
+RUN docker-php-ext-install gd bcmath sockets
 
 RUN a2enmod rewrite
