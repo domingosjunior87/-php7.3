@@ -32,6 +32,7 @@ Imagem Docker para projetos que utilizam o PHP 7.3 e o servidor Apache
     - session
     - SimpleXML
     - soap
+    - sockets
     - sodium
     - SPL
     - sqlite3
